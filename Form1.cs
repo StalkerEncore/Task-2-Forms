@@ -35,6 +35,8 @@ namespace Task_2_Forms
 
             do { } while (!int.TryParse(textBox3.Text, out y) || x >= y);
 
+            textBox4.Text = "";
+            
             for (int i = 0; i < A.Length; i++)
             {
                 if (x < A[i] && A[i] < y)
